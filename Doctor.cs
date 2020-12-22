@@ -15,7 +15,6 @@ namespace Salary
         public override void salary()
         {
             int days = 30;
-            int hours = 10;
             int salary = 200 * days;
             Console.WriteLine("Your salary is " + salary + " for 1 month");
         }
